@@ -10,11 +10,11 @@ Welcome to my website!
 
 Let me start with an introduction of myself.
 
-I'm a medical student from China but also highly motivated in computer programming. I am familier with `HTML` , `Javascript` , `CSS` , `PHP` and `Python`. Beside that, I am also a huge fan of **Cognitive Science** and **Neurobiology**.
+I'm a medical student from China but also highly motivated in computer programming. I am familiar with `HTML` , `JavaScript` , `CSS` , `PHP` and `Python`. Beside that, I am also a huge fan of **Cognitive Science** and **Neurobiology**.
 
 What makes me really different from most medical students is that ***I'm trying to use computer programming to hack into our brain***, especially the part of the brain that involves in the **learning process**.
 
-It occurred to me when I was still in my first or second year of medical school. The sheer volume of material I needed to remember overwhelmed me, and it became worse when it comes to final exams.
+It occurred to me when I was still in my first or second year of medical school. The sheer volume of material I needed to remember overwhelmed me, and it became worse when it came to final exams.
 
 So, I started combing through piles of literature for help. I began to notice some keywords like **Spaced Reptition**, **Active Recall**, **Testing Effect** etc. These are actually terminology borrowed from *Psychology*, and have been involved in scientific research for quite a long time. However, it wasn't until recently that these findings began stepping into our daily life.
 
