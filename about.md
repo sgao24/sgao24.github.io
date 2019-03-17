@@ -22,6 +22,6 @@ The most prominent progress of *memory and learning* is the introduction of ***S
 
 To make the process of making flashcards easier, I began using `Python` to assist in the process since last year. I am also trying to recognize different types of learning materials and to figure out the most efficient learning process for each.
 
-This website is intended to show some of my recent activities on my work, i.e., ***using `Python` to assist in the learning process***.
+This website is intended to show some of my recent activities of my work, i.e., ***using `Python` to assist in the learning process***.
 
 If you're also interested in ***coding*** and ***learning theory***, please feel free to contact me.
