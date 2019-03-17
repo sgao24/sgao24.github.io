@@ -16,7 +16,7 @@ What makes me really different from most medical students is that ***I'm trying 
 
 It occurred to me when I was still in my first or second year of medical school. The sheer volume of material I needed to remember overwhelmed me, and it became worse when it comes to final exams.
 
-So, I started to combing through piles of literature for help. I began to notice some keywords like **Spaced Reptition**, **Active Recall**, **Testing Effect** etc. These are actually terminology borrowed from *Psychology*, and have been involved in scientific research for quite a long time. However, it wasn't until recently that these findings began stepping into our daily life.
+So, I started combing through piles of literature for help. I began to notice some keywords like **Spaced Reptition**, **Active Recall**, **Testing Effect** etc. These are actually terminology borrowed from *Psychology*, and have been involved in scientific research for quite a long time. However, it wasn't until recently that these findings began stepping into our daily life.
 
 The most prominent progress of *memory and learning* is the introduction of ***SuperMemo*** (an algorithm and a software for memory consolidation based on flashcards). Actually, I have been using ***Anki*** (a software based on ***SM-2*** algorithm) since 2014 when I was still in high school, without realizing the learning theory behind it.
 
