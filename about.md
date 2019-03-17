@@ -8,9 +8,9 @@ Hello, everyone!
 
 Welcome to my website!
 
-Let me start with an introduction of myself. 
+Let me start with an introduction of myself.
 
-I'm a medical student from China but also highly motivated in computer programming. I am familier with `HTML` , `Javascript` , `CSS`, `PHP` and `Python`. Beside that, I am also a huge fan of **Cognitive Science** and **Neurobiology**.
+I'm a medical student from China but also highly motivated in computer programming. I am familier with `HTML` , `Javascript` , `CSS` , `PHP` and `Python`. Beside that, I am also a huge fan of **Cognitive Science** and **Neurobiology**.
 
 What makes me really different from most medical students is that ***I'm trying to use computer programming to hack into our brain***, especially the part of the brain that involves in the **learning process**.
 
