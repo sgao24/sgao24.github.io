@@ -34,6 +34,16 @@ icons:                       # (optional) icons in the header,
   envelope: "mailto:sihao.gao@gmail.com"
   github: "https://github.com/sgao24"
 
+# Jekyll settings
+permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
+paginate: 2                  # number of articles per page, remove to disable pagination
+excerpt_separator: "\n\n\n"  # indicates the end of the excerpt by two blank lines
+
+# Page settings
+show_excerpts: true          # show article previews on the home page instead of headlines
+hide_title: false            # remove site heading in the header
+post_footer: true            # show previous and next links at the end of each post
+date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
 
 # Build settings
 markdown: kramdown
@@ -43,6 +53,8 @@ style: contrast
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-default-layout
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
