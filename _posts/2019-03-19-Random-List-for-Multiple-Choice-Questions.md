@@ -1,6 +1,6 @@
 ---
-title: "Random List for Multiple Choice Questions"
 layout: post
+title: "Random List for Multiple Choice Questions"
 ---
 
 {% highlight HTML %}
