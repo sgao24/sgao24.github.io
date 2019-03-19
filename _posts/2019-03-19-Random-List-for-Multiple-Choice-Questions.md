@@ -4,7 +4,7 @@ title: "Random List for Multiple Choice Questions"
 date: 2019-03-19
 ---
 
-``` JavaScript
+```JavaScript
       function rand(arr){
         var ArrLen = arr.length;
         var r = new Array(ArrLen + 1);
