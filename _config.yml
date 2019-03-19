@@ -25,6 +25,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SihaoG
 github_username:  sgao24
 
+navigation:                  # (optional) site navigation in the header
+  - index.html
+  - archive.md
+  - about.md
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
