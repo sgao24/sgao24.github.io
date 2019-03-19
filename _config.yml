@@ -30,6 +30,11 @@ navigation:                  # (optional) site navigation in the header
   - archive.md
   - about.md
 
+icons:                       # (optional) icons in the header,
+  envelope: "mailto:sihao.gao@gmail.com"
+  github: "https://github.com/sgao24"
+
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
