@@ -29,6 +29,7 @@ github_username:  sgao24
 markdown: kramdown
 highlighter: rouge
 remote_theme: niklasbuschmann/contrast
+style: contrast
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
