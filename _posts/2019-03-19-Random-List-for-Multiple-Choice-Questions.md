@@ -5,7 +5,6 @@ date: 2019-03-19
 ---
 
 {% highlight JavaScript %}
-<script type="text/javascript">
       function rand(arr){
         var ArrLen = arr.length;
         var r = new Array(ArrLen+1);
@@ -31,5 +30,4 @@ date: 2019-03-19
         }
         return result;
       }
-</script>
 {% endhighlight %}
