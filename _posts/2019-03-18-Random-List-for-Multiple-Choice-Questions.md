@@ -3,8 +3,6 @@ layout: post
 title: "Random List for Multiple Choice Questions"
 ---
 
-Hello
-
 {% highlight HTML %}
 <script type="text/javascript">
       function rand(arr){
