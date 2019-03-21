@@ -6,7 +6,6 @@ date: 2019-03-19
 Last Sunday, when I was just working on my `Anki` flashcards, I came across one card like this:
 
 > LIST: Albumin, Globulin, Cholesterol, Lecithin, Fibrinogen
-
 > Question 1: Of these proteins, which ones have a relatively GREATER number of negative charges?
 > Question 2: Of these proteins, which ones have a relatively SMALLER number of negative charges?
 
@@ -14,8 +13,17 @@ Last Sunday, when I was just working on my `Anki` flashcards, I came across one 
 
 Well, the most common way that came to our mind might be that "why don't we just remember two lists of proteins? One for the proteins that have greater negative charges, the other for the proteins containing smaller negative charges.
 
-That part of knowledge becomes:
->
+That piece of knowledge becomes to remember:
+> - Greater negative charges: Albumin, Lecithin
+> - Smaller negative charges: Globulin, Cholesterol, Fibrinogen
+
+That doesn't sound very good because of one of the [20 golden rules of formating knowledge][https://www.supermemo.com/en/articles/20rules] is to avoid lists. One of the reasons is that remembering lists is tough.
+
+Consider you are asked to remember the diagnostic standard of *Hypertrophic Cardiomyopathy*. The rules are listed on your professor's slides and no matter how many times you read this diagnosis standard, you just can't drill it into your head.
+Why? Because this list is randomized in order. There's no procedural hint that will help you to get what's next on it. You just have to depend on repetition. However, I have to say that this example is a little bit different from the one listed on the top of this passage. But I will discuss it more in the future.
+
+## Is there a better way to remember?
+That's what I'm looking for. Actually, we don't need to remember the orders of the list.
 
 ```javascript
     function rand(arr){
