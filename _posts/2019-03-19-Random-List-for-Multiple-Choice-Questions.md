@@ -77,5 +77,5 @@ function rand(arr){
 So this code can change an **origin** *array* separated by `,` into a randomized **result** *array*, then we can show the result as a *bulleted list*.
 
 Here's the screenshot.
-![1](/assets/2019-3-22-1.png)
-![2](/assets/2019-3-22-2.png)
+![1](/assets/2019-3-22-1.PNG)
+![2](/assets/2019-3-22-2.PNG)
