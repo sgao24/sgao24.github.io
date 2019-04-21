@@ -1,5 +1,5 @@
-title: ""
-author: ""
+title: "S. Gao's Blog"
+author: "sgao24"
 description: ""
 
 # Jekyll settings
@@ -14,7 +14,7 @@ post_footer: true            # show previous and next links at the end of each p
 date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
 
 # Theme settings
-style: default               # choose between "default", "contrast" and "minimal"
+style: contrast               # choose between "default", "contrast" and "minimal"
 dark_theme: false            # enables dark mode
 
 navigation:                  # (optional) site navigation in the header
@@ -23,15 +23,15 @@ navigation:                  # (optional) site navigation in the header
   - about.md
 
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
-  envelope: "mailto:"
-  github: "https://github.com"
+  envelope: "mailto:sihao.gao@gmail.com"
+  github: "https://github.com/sgao24"
   rss: "/feed.xml"
 
 comments:                    # embed disqus or isso comments
 #  disqus: ""
 #  isso: ""
 
-plugins: 
+plugins:
  - jekyll-feed
  - jekyll-paginate
  - jekyll-default-layout
