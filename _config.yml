@@ -40,7 +40,3 @@ plugins:
 
 future: true
 timezone: Asia/Shanghai
-
-social_links:
-    twitter: jekyllrb
-    github:  jekyll
