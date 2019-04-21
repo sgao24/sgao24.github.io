@@ -1,7 +1,8 @@
 title: "S. Gao's Blog"
 author: "sgao24"
 description: ""
-
+twitter_username: SihaoG
+github_username:  sgao24
 # Jekyll settings
 permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
 paginate: 2                  # number of articles per page, remove to disable pagination
