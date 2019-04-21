@@ -22,7 +22,7 @@ navigation:                  # (optional) site navigation in the header
   - index.html
   - archive.md
   - about.md
-  - downloads.md
+  - downloads.html
 
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
   envelope: "mailto:sihao.gao@gmail.com"
