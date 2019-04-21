@@ -20,14 +20,13 @@ dark_theme: false            # enables dark mode
 
 navigation:                  # (optional) site navigation in the header
   - index.html
-  - archive.md
   - about.md
   - downloads.html
 
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
   envelope: "mailto:sihao.gao@gmail.com"
   github: "https://github.com/sgao24"
-  rss: "/feed.xml"
+  twitter: "https://twitter.com/SihaoG"
 
 comments:                    # embed disqus or isso comments
 #  disqus: ""
