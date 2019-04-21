@@ -29,7 +29,7 @@ navigation:                  # (optional) site navigation in the header
   - index.html
   - archive.md
   - about.md
-  - downloads
+  - downloads/index.html
 
 icons:                       # (optional) icons in the header,
   envelope: "mailto:sihao.gao@gmail.com"
