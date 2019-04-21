@@ -21,6 +21,7 @@ navigation:                  # (optional) site navigation in the header
   - index.html
   - archive.md
   - about.md
+  - downloads.html
 
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
   envelope: "mailto:sihao.gao@gmail.com"
@@ -35,3 +36,6 @@ plugins:
  - jekyll-feed
  - jekyll-paginate
  - jekyll-default-layout
+
+future: true
+timezone: Asia/Shanghai
