@@ -5,4 +5,4 @@ permalink: /tools/
 ---
 
 - [Pediatric Growth Assessment](../growth.html)
-- [Obstetrics Calculator](../OBGYN.html)
+- [Obstetrics Calculator](../obcal.html)
