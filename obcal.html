@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OB Calculator</title>
+    <style>
+        body{
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0px;
+        }
+        .footer{
+            font-size: small;
+            background: gainsboro;
+            border-color: dimgrey;
+            border-top-style: solid;
+            border-top-width: 0.8px;
+            text-align: center;
+            padding-top: 0.5em;
+            line-height: 150%;
+            padding-bottom: 0.5em;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+        }
+        .result{
+            color: crimson;
+        }
+        .top_banner{
+            background: deeppink;
+            margin:0px;
+            line-height: 200%;
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: bold;
+            color: white;
+            border-bottom-color: dimgrey;
+            border-bottom-style: solid;
+            border-bottom-width: 0.8px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .content{
+            line-height: 150%;
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-bottom: 50px;
+        }
+        hr{
+            border: 0;
+            border-bottom: 1px dashed #ccc;
+            background: #999;
+        }
+    </style>
+</head>
+<body>
+<div class="top_banner">OB/GYN Calculator</div>
+<div class="content">
+    <p>Last Menstrual Period: <input type="date" id="LMP"></p>
+    <p>Current Date: <input type="date" id="date_c"></p>
+    <script>
+        document.getElementById("date_c").value = new Date().toISOString().substr(0, 10);
+    </script>
+    <p><button type="button" onclick="cal()">Calculate</button></p>
+    <p id="GA_result" class="result"></p>
+    <p id="EDC_result" class="result"></p>
+    <script>
+        function cal(){
+            let LMP = new Date(document.getElementById("LMP").value);
+            let EDC = new Date(LMP);
+            EDC.setDate(LMP.getDate()+280);
+            let CurrentDate = new Date(document.getElementById("date_c").value);
+            let DateDiff_in_Days = parseInt((CurrentDate - LMP)/(24*3600*1000));
+            let DateDiff_in_Weeks = parseInt(DateDiff_in_Days/7);
+            let DateDiff_index = DateDiff_in_Days%7;
+            document.getElementById("GA_result").innerHTML = "<b>Gestational Age</b>: " + DateDiff_in_Weeks + "<sup>+" + DateDiff_index + "</sup> W";
+            document.getElementById("EDC_result").innerHTML = "<b>Estimated Date of Confinement</b>: " + EDC.toLocaleDateString('en-US');
+        }
+    </script>
+    <hr>
+    <p>Ultrasound Date: <input type="date" id="date_us"></p>
+    <p>GA by Ultrasound: <input type="number" id="GA_w_us" min="0" max="50">weeks <input type="number" id="GA_d_us" min="0" max="6">days</p>
+    <p><button type="button" onclick="cal_us()">Calculate</button></p>
+    <p id="LMP_us_result" class="result"></p>
+    <p id="GA_us_result" class="result"></p>
+    <p id="EDC_us_result" class="result"></p>
+    <script>
+        function cal_us(){
+            let date_us = new Date(document.getElementById("date_us").value);
+            let CurrentDate = new Date(document.getElementById("date_c").value);
+            let GA_w_us = parseInt(document.getElementById("GA_w_us").value);
+            let GA_d_us = parseInt(document.getElementById("GA_d_us").value);
+            let delta_days = GA_w_us*7 + GA_d_us;
+            let DateDiff_in_Days = parseInt((CurrentDate - date_us)/(24*3600*1000)) + delta_days;
+            let DateDiff_in_Weeks = parseInt(DateDiff_in_Days/7);
+            let DateDiff_index = DateDiff_in_Days%7;
+            let EDC = new Date(date_us);
+            let LMP_us = new Date(date_us);
+            LMP_us.setDate(date_us.getDate() - 7*GA_w_us - GA_d_us);
+            EDC.setDate(date_us.getDate() + 280 - 7*GA_w_us - GA_d_us);
+            document.getElementById("LMP_us_result").innerHTML = "<b>Last Menstrual Period (corrected)</b>: " + LMP_us.toLocaleDateString('en-US');
+            document.getElementById("GA_us_result").innerHTML = "<b>Gestational Age</b>: " + DateDiff_in_Weeks + "<sup>+" + DateDiff_index + "</sup> W";
+            document.getElementById("EDC_us_result").innerHTML = "<b>Estimated Date of Confinement</b>: " + EDC.toLocaleDateString('en-US');
+        }
+    </script>
+</div>
+<div class="footer">
+    <div>Copyright © 2020 <b>Sihao Gao</b> All Rights Reserved</div>
+    <div><a href="mailto:gaosihao@stu.cqmu.edu.cn" style="color: darkblue">gaosihao@stu.cqmu.edu.cn</a></div>
+</div>
+</body>
+</html>
