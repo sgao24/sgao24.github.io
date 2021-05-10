@@ -22,6 +22,7 @@ navigation:                  # (optional) site navigation in the header
   - index.html
   - about.md
   - tools.md
+  - cases.md
   - downloads.html
 
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
